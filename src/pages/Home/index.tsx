@@ -1,17 +1,17 @@
 import React from 'react'
-import { ButtonPrimary, ButtonPrimaryDark, ButtonSecondary, ButtonSecondaryDark } from '../../components/core-ui/atoms/Button';
-import TextInput from '../../components/core-ui/atoms/TextInput'
+import NavMenu from '../../components/core-ui/organisms/NavMenu';
 import useTextInput from '../../hooks/useTextInput'
+import { Hero } from './index.styles';
 
 const Home: React.FC = () => {
   const [value, onChange] = useTextInput();
 
   return (
     <div>
-      <TextInput value={value} onChange={onChange} />
-      <ButtonSecondaryDark onClick={() => console.log("haha")}>
-        Makan
-      </ButtonSecondaryDark>
+      <Hero>
+        <NavMenu />
+      </Hero>
+     
     </div>
   )
 }

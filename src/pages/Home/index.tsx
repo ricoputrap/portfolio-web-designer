@@ -8,8 +8,6 @@ import { Hero } from './index.styles';
 import HeroImage from "../../assets/images/pic.png";
 
 const Home: React.FC = () => {
-  const [value, onChange] = useTextInput();
-
   return (
     <div>
       <Hero>

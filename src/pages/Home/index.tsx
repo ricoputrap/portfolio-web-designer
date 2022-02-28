@@ -3,7 +3,6 @@ import { ButtonPrimary } from '../../components/core-ui/atoms/Button';
 import { Heading1, Heading5 } from '../../components/core-ui/atoms/Headings';
 import { Text } from '../../components/core-ui/atoms/Text';
 import NavMenu from '../../components/core-ui/organisms/NavMenu';
-import useTextInput from '../../hooks/useTextInput'
 import { Hero } from './index.styles';
 import HeroImage from "../../assets/images/pic.png";
 

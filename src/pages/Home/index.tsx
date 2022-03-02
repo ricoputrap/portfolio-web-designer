@@ -19,7 +19,7 @@ const Home: React.FC = () => {
             <ButtonPrimary onClick={() => console.log("")}>See My Work</ButtonPrimary>
           </div>
           <div>
-            <img src={HeroImage} alt="hero-image" />
+            <img src={HeroImage} alt="hero" />
           </div>
         </div>
       </Hero>

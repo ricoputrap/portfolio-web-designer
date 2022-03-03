@@ -4,7 +4,7 @@ import { Text } from "../../components/core-ui/atoms/Text";
 
 export const Hero = styled.div`
   background-color: #28293E;
-  padding: 64px 135px 139px 135px;
+  padding: 0 135px 139px 135px;
 
   & .hero__wrapper {
     display: flex;

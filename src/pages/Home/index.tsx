@@ -2,16 +2,14 @@ import React from 'react'
 import { ButtonPrimary } from '../../components/core-ui/atoms/Button';
 import { Heading1, Heading5 } from '../../components/core-ui/atoms/Headings';
 import { Text } from '../../components/core-ui/atoms/Text';
-import NavMenu from '../../components/core-ui/organisms/NavMenu';
 import { Hero } from './index.styles';
 import HeroImage from "../../assets/images/pic.png";
 
 const Home: React.FC = () => {
   return (
-    <div>
+    <main>
       <Hero>
-        <NavMenu />
-        <div className="hero__wrapper">
+        {/* <div className="hero__wrapper">
           <div className="hero__wrapper__text">
             <Heading5>GABRIEL PIRES</Heading5>
             <Heading1 isLight>The Simple, Clean Design</Heading1>
@@ -21,10 +19,10 @@ const Home: React.FC = () => {
           <div>
             <img src={HeroImage} alt="hero" />
           </div>
-        </div>
+        </div> */}
       </Hero>
      
-    </div>
+    </main>
   )
 }
 

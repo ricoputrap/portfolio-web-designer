@@ -38,7 +38,7 @@ export const ButtonDark = styled(ButtonBase)`
 `;
 
 export const ButtonOutlined = styled(ButtonBase)`
-  border: 1px solid #B550F8;
+  border: 1px solid rgba(255, 255, 255, 0.2957);
   background-color: transparent;
   color: #FFFFFF;
 

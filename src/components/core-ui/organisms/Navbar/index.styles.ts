@@ -55,22 +55,6 @@ export const NavLink = styled(Link)`
   }
 `;
 
-export const NavBtnLink = styled(Link)`
-
-`;
-
-export const MenuText = styled(Text)`
-  margin-right: 20%;
-
-  &:last-of-type {
-    margin: 0;
-  };
-
-  @media only screen and (max-width: 1024px) {
-    margin-right: 15%;
-  }
-`;
-
 export const Bars = styled(FaBars)`
   display: none;
   color: #FFFFFF;

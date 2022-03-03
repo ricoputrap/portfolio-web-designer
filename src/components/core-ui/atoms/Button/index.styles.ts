@@ -43,6 +43,6 @@ export const ButtonOutlined = styled(ButtonBase)`
   color: #FFFFFF;
 
   &:hover {
-    background-color: #464646;
+    background-color: #343554;
   }
 `;

@@ -1,7 +1,5 @@
 import styled from "styled-components";
-import { Text } from "../../atoms/Text";
 import { ButtonOutlined } from '../../atoms/Button/index.styles'
-import { FaBars } from "react-icons/fa";
 import { NavLink as Link } from "react-router-dom";
 
 export const Nav = styled.nav`
@@ -18,10 +16,8 @@ export const Nav = styled.nav`
 
   @media only screen and (max-width: 768px) {
     padding: 16px 23px;
-  }
 
-  ${ButtonOutlined} {
-    @media only screen and (max-width: 768px) {
+    ${ButtonOutlined} {
       display: none;
     }
   }
@@ -55,16 +51,18 @@ export const NavLink = styled(Link)`
   }
 `;
 
-export const Bars = styled(FaBars)`
-  display: none;
-  color: #FFFFFF;
+export const NavToggle = styled.div`
+  & svg {
+    display: none;
+    color: #FFFFFF;
 
-  @media only screen and (max-width: 768px) {
-    display: block;
-    font-size: 16px;
-    padding: 16px;
-    border: 1px solid rgba(255, 255, 255, 0.2957);
-    border-radius: 6px;
-    cursor: pointer;
+    @media only screen and (max-width: 768px) {
+      display: block;
+      font-size: 16px;
+      padding: 16px;
+      border: 1px solid rgba(255, 255, 255, 0.2957);
+      border-radius: 6px;
+      cursor: pointer;
+    }
   }
 `;

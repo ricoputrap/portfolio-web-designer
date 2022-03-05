@@ -8,8 +8,8 @@ import HeroImage from "../../assets/images/pic.png";
 const Home: React.FC = () => {
   return (
     <main>
-      <Hero>
-        {/* <div className="hero__wrapper">
+      {/* <Hero>
+        <div className="hero__wrapper">
           <div className="hero__wrapper__text">
             <Heading5>GABRIEL PIRES</Heading5>
             <Heading1 isLight>The Simple, Clean Design</Heading1>
@@ -19,8 +19,8 @@ const Home: React.FC = () => {
           <div>
             <img src={HeroImage} alt="hero" />
           </div>
-        </div> */}
-      </Hero>
+        </div>
+      </Hero> */}
      
     </main>
   )

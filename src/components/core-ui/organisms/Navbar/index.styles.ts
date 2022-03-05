@@ -1,10 +1,9 @@
 import styled from "styled-components";
 import { ButtonOutlined } from '../../atoms/Button/index.styles'
-import { NavLink as Link } from "react-router-dom";
 
 export const Nav = styled.nav`
   background: #28293E;
-  position: absolute;
+  position: relative;
   left: 0;
   top: 0;
   width: 100%;
@@ -31,23 +30,6 @@ export const NavMenu = styled.div`
 
   @media only screen and (max-width: 768px) {
     display: none;
-  }
-`;
-
-export const NavLink = styled(Link)`
-  font-family: 'Epilogue', sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 32px;
-  color: #FFFFFF;
-  padding: 0 1rem;
-  display: flex;
-  align-items: center;
-  text-decoration: none;
-  cursor: pointer;
-  
-  &.active {
-    color: #B550F8;
   }
 `;
 

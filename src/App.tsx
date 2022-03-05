@@ -1,8 +1,9 @@
 import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+
 import './App.css';
 import Navbar from './components/core-ui/organisms/Navbar';
 import Home from './pages/Home';
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import About from './pages/About';
 import Contact from './pages/Contact';
 import Services from './pages/Services';

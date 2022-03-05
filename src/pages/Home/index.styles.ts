@@ -48,6 +48,14 @@ export const TextContainer = styled.div`
   @media only screen and (max-width: 768px) {
     width: 100%;
   }
+
+  @media only screen and (max-width: 425px) {
+    margin-top: 30px;
+    
+    ${Heading1} {
+      font-size: 60px !important;
+    }
+  }
 `;
 
 export const ImageContainer = styled.div`
@@ -64,6 +72,12 @@ export const ImageContainer = styled.div`
 
     img {
       width: 60%;
+    }
+  }
+
+  @media only screen and (max-width: 425px) {
+    img {
+      width: 90%;
     }
   }
 `;

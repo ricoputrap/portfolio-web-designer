@@ -26,7 +26,8 @@ export const ContentWrapper = styled.div<Props>`
   a {
     opacity: ${(props) => (props.open ? 1 : 0)};
     z-index: ${(props) => (props.open ? 1 : -1)};
-    padding: 10px;
+    padding: 10px 0;
+    width: inherit;
     justify-content: center;
     transition: ${props => props.open ? "opacity 0.4s ease-in-out 0.3s" : "opacity 0.2s ease-in-out"};    
 
